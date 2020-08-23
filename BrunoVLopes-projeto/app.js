@@ -9,8 +9,8 @@ const app = express();
 // Conexão com MySQL
 const sql = mysql.createConnection({
     host: 'teste.cibd6rytmbum.us-east-1.rds.amazonaws.com',
-    user: 'root',
-    password: '',
+    user: 'admin',
+    password: '40028922',
     port: 3306
 });
 
