@@ -1,0 +1,20 @@
+Eu tive alguns problemas fazendo o backup do meu banco de dados, portanto irei enviar meu banco de dados neste arquivo txt.
+
+create database l5r;
+use l5r;
+
+create table ficha(
+	id int not null primary key auto_increment,
+    nome varchar(30) NOT NULL,
+    familia varchar(30) NOT NULL,
+    clan varchar(30) NOT NULL,
+    escola varchar(30) NOT NULL,
+    xp tinyint(4) NOT NULL
+);
+
+INSERT INTO ficha (nome, familia, clan, escola, xp) VALUES ("Akira", "Togashi", "Dragão", "Togashi Chronicler", 99);
+INSERT INTO ficha (nome, familia, clan, escola, xp) VALUES ("Yasuho", "Doji", "Garça", "Kakita Duelist", 99);
+INSERT INTO ficha (nome, familia, clan, escola, xp) VALUES ("Hyrule", "Hida", "Caranguejo", "Kuni Purifier", 99);
+INSERT INTO ficha (nome, familia, clan, escola, xp) VALUES ("Toshizou", "Kitsuki", "Dragão", "Kitsuki Investigator", 99);
+INSERT INTO ficha (nome, familia, clan, escola, xp) VALUES ("Sosuki", "Kaito", "Fênix", "Kaito Shrine Keeper", 99);
+INSERT INTO ficha (nome, familia, clan, escola, xp) VALUES ("Kokomi", "Shiba", "Fênix", "Shiba Guardian", 99);
